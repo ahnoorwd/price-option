@@ -63,11 +63,13 @@ const Jympriceoption = () => {
 ]
 
     return (
-        <div>
-            <h2>This is the best price in the town</h2>
-            {
-              priceoption.map(option=><Gymsingleoption key={option.id} option={option}></Gymsingleoption>)  
+        <div className="m-6">
+            <h2 className="text-3xl my-5">This is the best price in the town</h2>
+           <div className="grid md:grid-cols-3  grid-cols-1 gap-6">
+           {
+            priceoption.map(option=><Gymsingleoption key={option.id} option={option}></Gymsingleoption>)  
             }
+           </div>
         </div>
     );
 };

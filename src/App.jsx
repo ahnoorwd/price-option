@@ -1,7 +1,9 @@
 
 import Mynavbar from "./components/navbar/buildnavabr/Mynavbar";
-import Navbar from "./components/navbar/Navbar";
 import Jympriceoption from "./components/priceoptioninjym/Jympriceoption";
+import Barchat from "./linecharts/barchart/Barchat";
+import Linecharts from "./linecharts/Linecharts";
+
 
 
 const App = () => {
@@ -10,6 +12,8 @@ const App = () => {
       {/* <Navbar></Navbar> */}
       <Mynavbar></Mynavbar>
       <Jympriceoption></Jympriceoption>
+     <Linecharts></Linecharts>
+     <Barchat></Barchat>
       
     </div>
   );
